@@ -1,0 +1,42 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1688536978880,1151,Home Page,200,,Thread Group 1-1,text,true,,1789,1080,1,1,https://petstore.octoperf.com,340,0,33
+1688536978880,341,Home Page-0,308,Permanent Redirect,Thread Group 1-1,text,true,,347,540,1,1,http://petstore.octoperf.com/,340,0,33
+1688536979225,806,Home Page-1,200,,Thread Group 1-1,text,true,,1442,540,1,1,https://petstore.octoperf.com,806,0,641
+1688536978793,1151,Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1789,1080,1,1,null,340,736,33
+1688536980681,370,Enter Home Page,200,,Thread Group 1-1,text,true,,5789,1124,1,1,https://petstore.octoperf.com/actions/Catalog.action,160,0,0
+1688536980681,160,Enter Home Page-0,308,Permanent Redirect,Thread Group 1-1,text,true,,370,562,1,1,http://petstore.octoperf.com/actions/Catalog.action,160,0,0
+1688536980842,209,Enter Home Page-1,200,,Thread Group 1-1,text,true,,5419,562,1,1,https://petstore.octoperf.com/actions/Catalog.action,208,0,0
+1688536980681,370,Enter Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5789,1124,1,1,null,160,7,0
+1688536981059,435,Login,200,,Thread Group 1-1,text,true,,4778,1319,1,1,https://petstore.octoperf.com/actions/Account.action,293,0,0
+1688536981059,293,Login-0,308,Permanent Redirect,Thread Group 1-1,text,true,,370,688,1,1,http://petstore.octoperf.com/actions/Account.action,293,0,0
+1688536981352,142,Login-1,200,,Thread Group 1-1,text,true,,4408,631,1,1,https://petstore.octoperf.com/actions/Account.action,142,0,0
+1688536981059,435,Login Page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4778,1319,1,1,null,293,2,0
+1688536981513,355,REPTILES,200,,Thread Group 1-1,text,true,,4429,1192,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,148,0,0
+1688536981513,148,REPTILES-0,308,Permanent Redirect,Thread Group 1-1,text,true,,404,596,1,1,http://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,148,0,0
+1688536981662,206,REPTILES-1,200,,Thread Group 1-1,text,true,,4025,596,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,205,0,0
+1688536981870,406,REPTILES,200,,Thread Group 1-1,text,true,,4429,1192,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,164,0,0
+1688536981870,164,REPTILES-0,308,Permanent Redirect,Thread Group 1-1,text,true,,404,596,1,1,http://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,164,0,0
+1688536982034,242,REPTILES-1,200,,Thread Group 1-1,text,true,,4025,596,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,242,0,0
+1688536981513,761,Select Category,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8858,2384,1,1,null,312,4,0
+1688536982279,409,RP-LI-02,200,,Thread Group 1-1,text,true,,4588,1188,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-LI-02,199,0,0
+1688536982279,199,RP-LI-02-0,308,Permanent Redirect,Thread Group 1-1,text,true,,402,594,1,1,http://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-LI-02,199,0,0
+1688536982479,209,RP-LI-02-1,200,,Thread Group 1-1,text,true,,4186,594,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-LI-02,208,0,0
+1688536982689,304,RP-LI-02,200,,Thread Group 1-1,text,true,,4588,1188,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-LI-02,138,0,0
+1688536982689,138,RP-LI-02-0,308,Permanent Redirect,Thread Group 1-1,text,true,,402,594,1,1,http://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-LI-02,138,0,0
+1688536982828,165,RP-LI-02-1,200,,Thread Group 1-1,text,true,,4186,594,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-LI-02,164,0,0
+1688536982278,713,Select Product,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,9176,2376,1,1,null,337,10,0
+1688536983000,374,EST-13,200,,Thread Group 1-1,text,true,,5518,1190,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13,194,0,0
+1688536983000,194,EST-13-0,308,Permanent Redirect,Thread Group 1-1,text,true,,403,595,1,1,http://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13,194,0,0
+1688536983195,179,EST-13-1,200,,Thread Group 1-1,text,true,,5115,595,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13,178,0,0
+1688536983376,292,EST-13,200,,Thread Group 1-1,text,true,,5518,1190,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13,150,0,0
+1688536983376,150,EST-13-0,308,Permanent Redirect,Thread Group 1-1,text,true,,403,595,1,1,http://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13,150,0,0
+1688536983526,142,EST-13-1,200,,Thread Group 1-1,text,true,,5115,595,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13,141,0,0
+1688536983000,666,Select Working Item,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,11036,2380,1,1,null,344,3,0
+1688536983670,449,PaymentDetails,200,,Thread Group 1-1,text,true,,4917,1148,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,242,0,0
+1688536983670,242,PaymentDetails-0,308,Permanent Redirect,Thread Group 1-1,text,true,,382,574,1,1,http://petstore.octoperf.com/actions/Order.action?newOrderForm=,242,0,0
+1688536983912,207,PaymentDetails-1,200,,Thread Group 1-1,text,true,,4535,574,1,1,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,206,0,0
+1688536983669,449,Order form,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4917,1148,1,1,null,242,3,0
+1688536984125,733,Signoff,200,OK,Thread Group 1-1,text,true,,1130,544,1,1,https://reqres.in/api/users?page=2,731,0,268
+1688536984122,733,Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1130,544,1,1,null,731,4,268
+1688536984860,490,Payload,201,Created,Thread Group 1-1,text,true,,746,642,1,1,https://reqres.in/api/users,490,0,0
+1688536984859,490,Payload,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,746,642,1,1,null,490,2,0
